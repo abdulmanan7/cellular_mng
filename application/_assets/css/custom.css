@@ -1,0 +1,275 @@
+.box .box-header{font-size:18px;}
+@font-face {
+    font-family: Ubuntu;
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+label.valid {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.error{
+    color: #FF0000;
+}
+#logopic{
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.top50{
+    margin-top: 50px;
+}
+label.error {
+    color: #FF0000;
+    padding-left: 16px;
+    margin-left: .3em;
+
+}
+/* .setlinks li a.active,{
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+} */
+.underline{
+    border-bottom: 1px solid green;
+    padding-bottom: 3px;
+}
+.nopadding{
+    padding-left: 0;
+}
+#edit{
+    margin-right: 3px !important;
+}
+.horozintalitems input{
+    margin-top: 4px;
+}
+.invoiceHeading{
+    margin-bottom:0 ;
+    padding-top: 0;
+}
+
+.footerinput{
+    margin:10px 0;
+}
+.form-inline.form-group{
+    margin-right: 10px;
+}
+.bold-text{
+    font-weight: bold;
+}
+
+.curr-right{
+    margin-left: 2px;
+}
+.curr-left{
+    margin-right: 2px;
+}
+.noborder{
+    border: none;
+    border-color: transparent;
+}
+#invoiceLogo{
+    margin-bottom: 20px;
+}
+#usr{
+    margin-right: 3px !important;
+}.nav-heading{
+     background-color: #e8e8e8;
+     padding: 5px;
+     font-weight: bold;
+     font-size: 1.2em;
+     text-align: center;
+     color:gray;
+ }
+.bs-docs-masthead{
+    background-color: #6f5499;
+    background-image: linear-gradient(to bottom, #563d7c 0px, #6f5499 100%);
+    background-repeat: repeat-x;
+}
+.bs-docs-masthead{
+    padding: 0;
+}
+.bs-docs-masthead h1{
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    padding: 34px 0;
+    text-align: center;
+}
+.bs-docs-masthead a:hover{
+    text-decoration: none;
+}
+.meritoo-logo a{
+    background-color: #fff;
+    border: 1px solid rgba(66, 139, 202, 0.4);
+    display: block;
+    font-family: Ubuntu;
+    padding: 22px 0;
+    text-align: center;
+}
+.meritoo-logo a,
+.meritoo-logo a:hover,
+.meritoo-logo a:focus{
+    text-decoration: none;
+}
+.meritoo-logo a img{
+    display: block;
+    margin: 0 auto;
+}
+.meritoo-logo a span{
+    color: #4e4b4b;
+    font-size: 18px;
+}
+.row-urls{
+    margin-top: 4px;
+}
+.row-urls .col-md-6{
+    text-align: center;
+}
+.row-urls .col-md-6 a{
+    font-size: 14px;
+}
+.buttons-title{
+    margin-top: 20px
+}
+.buttons-group{
+    margin-top: 10px;
+}
+.the-icons{
+    margin-left: 0;
+    list-style: none;
+}
+.the-icons li {
+    float: left;
+    width: 25%;
+    line-height: 25px;
+}
+.txtbold{
+    font-weight: bold;
+}
+.panel-bootstrap-switch,
+.panel-bootstrap-switch .bootstrap-admin-panel-content{
+    float: left;
+}
+.panel-bootstrap-switch .buttons-group{
+    margin-top: 0;
+}
+.panel-bootstrap-switch .buttons-group .has-switch{
+    margin-top: 10px;
+}
+.panel-bootstrap-switch #btn-destroy-switch,
+.panel-bootstrap-switch #btn-create{
+    margin-top: 5px;
+}
+.panel-bootstrap-switch #btn-destroy-switch{
+    margin-bottom: 10px;
+}
+.panel-bootstrap-switch .bootstrap-switch-footer{
+    margin-top: 20px;
+}
+.alert{
+    margin: 0 auto 20px;
+}
+.with-hr{
+    border-bottom:1px solid gray;
+    padding:2em;
+}
+.pagination-container{
+    margin-top: 20px;
+}
+.pagination-container-first{
+    margin-top: 10px;
+}
+.pagination-container .pagination{
+    margin: 0;
+}
+.notification{
+    margin: 5px 0;
+}
+.panel-heading p{
+    display: inline;
+    margin-left:1px;
+    font-size: 1.5em;
+
+}
+.panel-heading p:nth-child(3) {
+    position: absolute;
+    right: 35px;
+}
+#userbtn{
+    float: right;
+}
+.mleft8{
+    margin-left: 8px;
+}
+.glyphicon{
+    margin-right: 4px !important;
+}
+div small.error{
+    /*color: #B94A48;  color to match Bootstraps error class */
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+p.error-col{
+    color: #FF0000;
+}
+
+@media (min-width: 768px) {
+    #hidden {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+@media (max-width: 200px) and (max-width: 480px) {
+    #hidden {
+        display: none !important;
+        visibility: show !important;
+    }
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.no-data{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #f5f5f5;
+    border: 0 none;
+    border-radius: 4px;
+    padding: 40px;
+    text-align: center;
+}
+
+/** custom styling **/
+body{background-color: #f9f9f9;}
+body#loginPage{background: url('../images/login-bg.jpg') no-repeat center fixed;}
+.form-control{border-radius: 0; -webkit-box-shadow:0; box-shadow: 0; }
+.nav-pills>li>a, .btn, .btn-lg, .btn-group-lg>.btn{border-radius: 0;}
+body#loginPage h1{ max-width: 400px; padding: 12px; margin: 0 auto 10px auto;  background: #f3f3f3; border: 1px solid #E5E5E5; font-size:20px;}
+body#loginPage  .bootstrap-admin-login-form input[type="text"], body#loginPage  .bootstrap-admin-login-form input[type="password"]{padding: 12px 8px;}
+.panel, .dropdown-menu, .alert{border-radius: 0;}
+
+
+.hor-no-padding{padding-left: 0; padding-right:0;}
+.page_content{margin: 0 auto; width: 100%;}
+.page-left, .page-right{padding-top: 20px;}
+.page-right{background: #fff; min-height: 100%;}
+
+.navbar{margin-bottom: 0; }
+.navbar-blue{background-color: #3c8dbc;}
+
+.navbar-blue a{color: #d4e6f0;}
+.navbar-blue>li>a:focus, .navbar-blue>li>a:hover{background-color: #357ea8;}
+.navbar-blue .open>a, .navbar-blue .open>a:focus, .navbar-blue .open>a:hover{background-color: #357ea8;}
+.navbar-blue a:hover{color:#fff;}
+
+.page-left a{color:#343434;}
+.page-left ul li{border-top: 1px solid #fff; border-bottom: 1px solid #dbdbdb;}
+.top-form{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
